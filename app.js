@@ -51,7 +51,7 @@ document.querySelector(".Hold-btn").addEventListener("click", function () {
   score[activePlayer] += roundScore;
   document.querySelector("#score-" + activePlayer).textContent =
     score[activePlayer];
-  if (score[activePlayer] >= 10) {
+  if (score[activePlayer] >= 100) {
     document.querySelector("#name-" + activePlayer).textContent = "Winner!";
     document.querySelector(".dice").style.display = "none";
     document
